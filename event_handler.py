@@ -24,7 +24,7 @@ class Events(watchdog.events.PatternMatchingEventHandler):
         print(m_notification, file=open("output.txt", "a"))
 
 if __name__ == "__main__": 
-    src_path = r"C:/Users/mimoz/Desktop/KrytenWare/test_directory" # /path/to/directory
+    src_path = r"test_directory" # /path/to/directory
     event_handler = Events() 
     observer = watchdog.observers.Observer() 
     observer.schedule(event_handler, path=src_path, recursive=True)
