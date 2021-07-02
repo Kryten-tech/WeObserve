@@ -1,0 +1,7 @@
+{
+    "watched_dirs":[
+        "/home/krytenware/test_directory/"
+    ],
+    "output_file":"/home/krytenware/output.txt",
+    "log_files":["/var/log/auth.log"]
+}
