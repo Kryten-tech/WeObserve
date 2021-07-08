@@ -1,5 +1,5 @@
 # WeObserve
-### Linux server security manager for Kryten
+### Linux server security monitor manager for Kryten
 
 Output of ``python3 event_handler.py`` following the creation, modification and deletion of a file in the specified directory:
 
